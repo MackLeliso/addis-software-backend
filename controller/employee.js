@@ -1,5 +1,5 @@
 import Employee from "../model/Employe.js";
-import { validateEmployee } from "../plugin/validator.js";
+import { validateEmployee } from "../plugin/validatore.js";
 
 // create employee
 export const createEmployee = async (req, res) => {
